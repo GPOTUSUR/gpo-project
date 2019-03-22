@@ -107,7 +107,7 @@ input::placeholder{
     box-shadow: 0 0 8px 4px rgb(250, 19, 19);
 }
 .exit a{
-    text-decoration: none;
+    text-decoration:none;
     color: #fff;
     font-size: 22px;
 }
