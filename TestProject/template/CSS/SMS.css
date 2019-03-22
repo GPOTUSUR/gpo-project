@@ -1,0 +1,78 @@
+.field_sms{
+    height: 400px;
+/*    border: 1px solid;*/
+    box-shadow: 1px 1px 1px 1px,1px 1px 1px 1px inset; 
+    overflow: auto;
+}
+.field_sms_login{
+    height: 400px;
+/*    border: 1px solid;*/
+    box-shadow: 1px 1px 1px 1px,1px 1px 1px 1px inset; 
+    overflow: auto;
+}
+.SMS_HW{
+    height: 40px;
+    width: auto;
+    position: relative;
+    background: rgba(255, 0, 0, 0.7);
+    line-height: 40px;
+    border-bottom: 1px solid;
+}
+.SMS_HW_Login{
+    height: 40px;
+    width: auto;
+    position: relative;
+    background: rgba(118, 0, 255, 0.7);
+    line-height: 40px;
+    border-bottom: 1px solid;
+}
+.sms_text{
+    position:absolute;
+    display: inline;
+    left: 200px;
+}
+.XY_sms{
+    margin: 0 10% 0 10%;
+    width: 80%;
+}
+h1{
+    margin: 10px 25% 30px 30%;
+}
+.input_sms{
+    width: 340px;
+    height: 30px;    
+    margin-top: 5px;
+    background: rgba(238, 238, 238, 0);
+    border: none;
+    border-bottom: 2px solid red;
+    color:aliceblue;
+}
+input::placeholder{
+    color:#fff;
+    opacity: 1;
+}
+.bottom{
+    width: 120px;
+    height: 34px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(250, 19, 19);
+    color:#fff;
+    font-size: 20px;
+    transition: 0.6s;
+}
+.bottom:hover{
+    transition: 0.6s;
+    background: #00aeef;
+    box-shadow: 0 0 8px 4px rgb(250, 19, 19);
+}
+/*
+.sms{
+    height: 400px;
+    width: 600px    ;
+    border: 2px solid;
+}
+*/
+#login_interlocutor{
+    display: inline-block;
+}

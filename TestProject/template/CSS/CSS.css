@@ -1,0 +1,147 @@
+body{
+    font-family: sans-serif;
+    background: url('../../../TestProject/template/IMG/back.jpg') no-repeat #8011ee center top;
+}
+.div_signup{
+    width: 320px;
+/*    border: 1px solid;*/
+    margin: 22vh auto 0 auto;
+    text-align: center;
+    padding: 60px 0 60px 0;
+    border-radius: 7px;
+/*    box-shadow: 0 0 14px 6px rgb(255, 22, 22);*/
+/*    background: rgba(255, 255, 255, 0);*/
+    transition: 0.6s;
+    
+}
+.div_signup:hover{
+    box-shadow: 0 0 8px 3px rgb(255, 22, 22);
+    transition: 0.6s;
+}
+input::placeholder{
+    color:#fff;
+    opacity: 1;
+}
+.input_signup{
+    width: 220px;
+    height: 22px;
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    background: rgba(238, 238, 238, 0);
+    color: red;
+}
+.button_signup{
+    width: 120px;
+    height: 40px;
+    background: #00aeef;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 20px;
+    margin: 20px 0;
+    outline: none;
+    transition: 0.5s;
+}
+.button_signup:hover{
+    transition: 0.5s;
+    background: rgb(250, 19, 19);
+}
+.regis{
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(250, 19, 19);
+}
+.regis:hover{
+    color:#00aeef;
+}
+.chat{
+    background: #fff;
+    margin: 22vh auto 0 auto;
+    width: 300px;
+    text-align: center;
+}
+.button{
+    width: 220px;
+    height: 60px;
+    border: 1px solid;
+    margin: 0 auto;
+    line-height: 60px; 
+    border-radius: 30px;
+    background: #00aeef;
+    transition: 0.6s;
+}
+.button:hover{
+    transition: 0.6s;
+    background: rgb(250, 19, 19);
+    box-shadow: 0 0 8px 4px #00aeef;
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.login{
+    color: rgb(250, 19, 19);
+    font-size: 30px;
+    display: inline-block;
+/*    float: left;*/
+}
+.exit{
+    display: inline-block;
+    margin: 5px;
+    width: 120px;
+    height: 40px;
+    border: 1px solid;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+    float: right;
+    background: rgb(250, 19, 19);
+    transition: 0.6s;
+}
+.exit:hover{
+    transition: 0.6s;
+    background: #00aeef;
+    box-shadow: 0 0 8px 4px rgb(250, 19, 19);
+}
+.exit a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+}
+.buttonAdmin{
+    width: 220px;
+    height: 60px;
+/*    border: 1px solid;*/
+    margin: 0 auto;
+    line-height: 60px; 
+    border-radius: 30px;
+    background: #00aeef;
+    transition: 0.6s;
+    margin-top: 100px;
+    text-align: center;
+    color:#fff;
+    font-size: 20px;
+}
+.buttonAdmin:hover{
+    transition: 0.6s;
+    background: rgb(250, 19, 19);
+    box-shadow: 0 0 8px 4px #00aeef;
+}
+
+.user{
+    text-align: center;
+/*    line-height: 30px;*/
+    width: 100%;
+/*    height: 30px;*/
+/*    border: 1px solid;*/
+    margin: 0px;
+    color: #fff;
+    font-size: 20px;
+}
+.UsersAdmin{
+    width: 300px;
+    margin: 40px auto;
+}
